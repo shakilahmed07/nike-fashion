@@ -1,0 +1,103 @@
+/* Google Fonts Inport */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap");
+
+/* :root section */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* navbar section */
+a.navbar-brand.logo {
+  font-size: 30px;
+  font-weight: 800;
+}
+.logo-color {
+  color: #f27c49;
+}
+ul.navbar-nav.nav-size {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Header Top Section */
+.header-section {
+  height: 650px;
+}
+
+.header-title {
+  font-weight: 800;
+}
+.btn-warning {
+  color: #fff;
+  background-color: #f27c49;
+  border-color: #f27c49;
+}
+
+button.btn.btn-warning.custom-btn {
+  padding: 12px 20px;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+i.bi.bi-cart3 {
+  font-size: 22px;
+}
+
+img.header-img {
+  width: 75%;
+}
+
+/* Casual Section */
+.casual-section,
+.formal-section {
+  margin-bottom: 100px;
+}
+
+p.lead.text-secondary {
+  font-size: 15px;
+}
+
+.card-footer {
+  padding: 0.5rem 1rem;
+  background-color: rgb(255 255 255 / 3%);
+  border-top: 1px solid rgb(255 255 255 / 13%);
+}
+
+.text-dark {
+  color: #f27c49 !important;
+  font-weight: 900;
+}
+
+.card {
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
+  border-radius: 0 !important;
+}
+
+img.card-img-top.background {
+  background-color: #fa804c17;
+}
+
+h2.text {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+img.about-img {
+  width: 100%;
+}
+
+/* Product Review Section */
+.review-img {
+  margin: 0 auto;
+}
+/* Media Responsive */
+@media (max-width: 767.98px) {
+  .header-section {
+    height: 90vh;
+  }
+}
